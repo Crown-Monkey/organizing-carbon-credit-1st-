@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* *{
+    <!-- background-color: rgb(71, 165, 189); -->
+    background: rgb(137, 137, 235);
+    
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:sans-serif;
+}
+h1{
+    background-color: black !important;
+}
+
+.cont{
+    height: 750px;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 0px auto;
+    padding-top: 90px;
+}
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(232px - 30px);
+    background: rgb(0, 0, 0);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px; 
+}
+.container .box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(72, 88, 88);
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon{
+    top: 5px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.container .box .icon .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+.container .box:hover .icon .fas{
+    font-size: 20px;
+}
+.container .box .content{
+    position: absolute;
+    top:70px;
+    height: calc(100% - 50px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.container .box:hover .content{
+    top: 40%;
+}
+.container .box .content h1{
+    margin: 0 20px 50px ;
+    padding: 15px;
+    color: #fff;
+    font-size: 30px;
+}
+.container .box .content p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.container .box:nth-child(1) .icon{
+    background: rgb(72 88 88);
+}
+.container .box:nth-child(1) .icon{
+    background: rgb(72 88 88);
+}
+.container .box:nth-child(2) .icon{
+    background: rgb(72 88 88);
+}
+.container .box:nth-child(2) .icon{
+    background: rgb(72 88 88);
+}
+.container .box:nth-child(3) .icon{
+    background: rgb(72 88 88);
+}
+.container .box:nth-child(3) .icon{
+    background: rgb(72 88 88);
+}
+.cont{
+    background: rgb(255, 255, 255);
+}
+
+.orgName{
+    text-align: center;
+    font-size: 31px;
+}
+
+.orgId{
+    text-align: center;
+    font-size: 31px;
+}
