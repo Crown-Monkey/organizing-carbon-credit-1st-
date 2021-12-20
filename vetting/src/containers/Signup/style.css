@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:sans-serif;
+}
+section{
+    margin-top: 4px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .contentbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+section .contentbx .formbx{
+    width: 50%;
+}
+section .contentbx .formbx h2{
+    color: #000000 ;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ffcd27;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+section .contentbx .formbx .inputbx{
+    margin-bottom: 25px;
+}
+section .contentbx .formbx .inputbx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #000000;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section .contentbx .formbx .inputbx input{
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #000000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    background: transparent;
+    border-radius: 30px;
+}
+section .contentbx .formbx .inputbx input[type="submit"]{
+    background: #ffe100;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+section .contentbx .formbx .inputbx input[type="submit"]:hover{
+    background: #000000;
+}
+section .contentbx .formbx .remember{
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+form{
+    text-align: left;
+}
